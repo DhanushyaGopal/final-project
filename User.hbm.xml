@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>  
+<class name="com.user.User" table="user">  
+ <id name="id">  
+ <generator class="increment"></generator>  
+ </id>  
+ <property name="name"></property>  
+ <property name="password"></property>  
+ <property name="email"></property>  
+ </class>  
+         
+ </hibernate-mapping>  
